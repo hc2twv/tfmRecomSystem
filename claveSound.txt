@@ -1,0 +1,4 @@
+clienteID 529295acc334c5fea23d339ac03300bc
+client Secrect fb3fa6a713679e59f4f07c4f1fa20ec1
+
+token https://api.soundcloud.com/oauth2/token

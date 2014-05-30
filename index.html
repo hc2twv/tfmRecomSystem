@@ -1,0 +1,58 @@
+<!DOCTYPE html html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<title>Busqueda de Información - UPM</title>
+	<script type="text/javascript" src="js/script.js"></script>
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+</head
+<body>
+	<div style="position:relative;width: 100%;top:0">
+		<img src="images/UPM_logo.jpg" style="position: absolute;width: 150px;z-index: 10;left:30px;top:30px"/>
+		<div class="acc_login">
+			<form method="post" action="login.py">
+				<label for="user">Usuario: </label>
+				<input type="text" id="user" name="user"/>
+				<input type="submit" value="Acceder" />
+			</form>
+		</div>
+		<div>
+			<table style="position: relative;top:70px" width="100%">
+				<tr>
+					<td class="titleM">
+						<h3>Trabajo Final de M&aacute;ster<br />
+						Re-comendador Pro-activo y Sensible a Contexto de elementos educativos reutilizables</h3>
+						<form method="post" name="fInV" action='JavaScript:xmlhttpPost("searchGraphBase.py")'>
+							<label for="search" >B&uacute;squeda</label>
+							<input type="text" name="search" onkeyup='javascript:xmlhttpPostSensibility("searchSensibility.py")' />
+							<input type="button" onclick='JavaScript:xmlhttpPost("searchGraphBase.py")' value="Buscar" />
+						</form>
+						<img id="imgc" src="images/cargando.gif" alt="cargando" style="width: 25px;height: 25px;position: relative;top: -4px; visibility: hidden "/>						
+					</td>
+				</tr>
+				<tr>
+					<td>
+						
+						<div id="result" >
+							<p>No existe b&uacute;squeda...</p>
+						</div>
+						<div style="z-index: -10;height: 320px"></div>
+					</td>
+				</tr>
+				<tr>					
+					<td>
+						<div id="footer">
+							<h4>Escuela T&eacute;cnica Superior de Ingenieros en Telecomunicaci&oacute;n<br />Departamento de Ingenier&iacute;a en Sistemas Telem&aacute;ticos<br />Washington A. Vel&aacute;squez Vargas<br />2014 &copy; Espa&ntilde;a - Madrid</h4>
+						</div>	
+					</td>
+				</tr>
+			</table>
+		</div>
+					
+	</div>
+	<script type="text/javascript">
+		
+		
+	</script>
+</body>
+</html>
