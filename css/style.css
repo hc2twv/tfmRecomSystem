@@ -1,0 +1,31 @@
+body{background: #e9eaed}
+a{color:green}
+.acc_login{
+	background: rgb(159,163,71);	
+	width: 100%;
+	position:absolute;
+	right: 0;
+	color:#FFF;
+	font-weight: bold;
+}
+.acc_login form{
+	float:right;
+	margin-right:30px;
+	padding-top:14px
+}
+.titleM{
+	text-align: center;	
+	width:100%;
+	background:#FFF;
+	padding-top:15px
+}
+#footer{
+	position:relative;
+	width:100%;
+	text-align:center;
+	background:rgb(159,163,71);
+	padding-top: 5px;
+	padding-bottom:5px;
+	color:white;
+	
+}
